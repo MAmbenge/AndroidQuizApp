@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".MainActivity">
+
+        <!-- Que 1 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/Que_1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/que_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/Que_1_hint"
+            android:inputType="textCapWords"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/choice_a"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/choice_b"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/choice_c"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/choice_d"
+
+
+            android:textColor="@color/colorPrimaryDark" />
+
+        <!-- End Of Que 1 -->
+
+        <!-- Que 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/que_2"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/que_two_checkbox_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/checkbox_1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/que_two_checkbox_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/checkbox_2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/que_two_checkbox_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/checkbox_3"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+        <!--End Of Que 2 -->
+        <!-- Que 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Que 3. On which thread services work in android?"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:paddingLeft="16sp">
+
+
+            <RadioButton
+                android:id="@+id/que_three_radio_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/que_three_radio_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+        </RadioGroup>
+        <!-- End Of Que 3 -->
+
+        <!-- Ques 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/que_4"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:paddingLeft="16sp">>
+
+            <RadioButton
+                android:id="@+id/que_three_radio_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="radio_3"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/que_three_radio_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_4"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+        </RadioGroup>
+        <!-- Ebd Of Ques 4 -->
+
+        <!-- Que 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/que_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/que_5"
+            android:inputType="textCapWords"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/ans_1"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/ans_2"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/ans_3"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="20dp"
+            android:text="@string/ans_4"
+            android:textColor="@color/colorPrimaryDark" />
+        <!-- End Que 5 -->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="submitAns"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>
