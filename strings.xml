@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Que_1">Que 1. What is transient data in android?</string>
+    <string name="Que_1_hint">Type A, B, C or D</string>
+    <string name="choice_a">A. Permanent data</string>
+    <string name="choice_b">B. Secure data</string>
+    <string name="choice_c">C. Temporary data</string>
+    <string name="choice_d">D. Logical data</string>
+    <string name="que_2">Que 2. What is the difference between content values and cursor in android SQlite?</string>
+    <string name="checkbox_1">A. Content values are key pair values, which are updated or inserted in the database.</string>
+    <string name="checkbox_2">B. Cursor is used to store the temporary result.</string>
+    <string name="checkbox_3">C. Cursor is used to store data permanently.</string>
+    <string name="radio_1">Own Thread</string>
+    <string name="radio_2">Main Thread</string>
+    <string name="que_4">Que 4. What is Android?</string>
+    <string name="radio_3">Android is a stack of software for mobility</string>
+    <string name="radio_4">Google mobile device name</string>
+    <string name="que_5">Que 5. What is an interface in android?</string>
+    <string name="ans_1">A. Interface acts as a bridge between class and the outside world</string>
+    <string name="ans_2">B. Interface is a class.</string>
+    <string name="ans_3">C. Interface is a layout fileInterface is a layout file.</string>
+    <string name="ans_4">D. None of the above</string>
+    <string name="submit">Submit</string>
+
+</resources>
+
